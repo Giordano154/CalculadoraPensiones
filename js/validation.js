@@ -1,9 +1,11 @@
 function validarCorreo(correo) {
+
+    const regex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    return regex.test(correo);
+
   if (!email.includes("@")) return false;
 
-  const partes = email.split("@");
-  if (partes.length !== 2) return false;
-
+  
   const usuario = partes[0];
   const dominio = partes[1];
 
@@ -21,8 +23,6 @@ function validarCorreo(correo) {
   return true;
 }
 
-const correo1 = "ejemplo@dominio.com";
-const correo2 = "invalido@dominio";
 
-console.log(validarCorreo(correo1));
-console.log(validarCorreo(correo2));
+console.log(validarCorreo("ejemplo@dominio.com"));
+console.log(validarCorreo("invalido@dominio"));
