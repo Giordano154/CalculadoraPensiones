@@ -1,4 +1,4 @@
-[
+{"articulos":[
    {
       "codigo": "A001",
       "descripcion": "gaseosa",
@@ -15,3 +15,4 @@
       "precio": 1.52
    }
 ]
+}
