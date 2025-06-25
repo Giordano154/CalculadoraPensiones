@@ -1,0 +1,17 @@
+[
+   {
+      "codigo": "A001",
+      "descripcion": "gaseosa",
+      "precio": 5.6
+   },
+   {
+      "codigo": "A002",
+      "descripcion": "detergente",
+      "precio": 8.7
+   },
+   {
+      "codigo": "A003",
+      "descripcion": "pan",
+      "precio": 1.52
+   }
+]
