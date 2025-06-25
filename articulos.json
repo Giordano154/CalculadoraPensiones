@@ -1,0 +1,17 @@
+[
+  {
+    "codigo": 1,
+    "descripcion": "gaseosa",
+    "precio": 3
+  },
+  {
+    "codigo": 2,
+    "descripcion": "galleta",
+    "precio": 1.5
+  },
+  {
+    "codigo": 3,
+    "descripcion": "ace",
+    "precio": 6.5
+  }
+]
